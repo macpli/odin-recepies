@@ -44,7 +44,7 @@
 }
 
 .subCard {
-    height: 270px;
+    height: 350px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding: 12px;
     background-color: #f1f1f1;
@@ -63,6 +63,7 @@
 
 .subCard a {
     text-decoration: none;
+    font-weight: bold;
 }
 
 .cardImg {
@@ -73,12 +74,13 @@
 }
 
 .cardImg.coleslaw {
-    width: 201.5px;
-    height: 151.25px;
+    max-width: 201.5px;
+    max-height: 151.25px;
 }
 
 .subCard button {
-    margin-top: 15px;
+    display: inline-block;
+    vertical-align: bottom;
     background-color: rgb(141, 78, 41);
     color: #fff;
     border:none; 
@@ -122,4 +124,9 @@
     display: block;
     max-width: 1000px;
     margin: 0 auto;
+}
+
+.recipeName {
+    display: block;
+    height: 70px;
 }
